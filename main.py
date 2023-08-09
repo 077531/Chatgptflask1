@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 import openai
 
 app = Flask(__name__)
-openai.api_key = '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'
+openai.api_key = 'myapikey'
 conversations = []
 @app.route('/', methods=['GET', 'POST'])
 def home():
